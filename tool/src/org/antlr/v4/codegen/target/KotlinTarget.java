@@ -49,7 +49,7 @@ public class KotlinTarget extends JavaTarget {
 		 * @see Target.defaultCharValueEscape
 		 * @see Target.getTargetCharValueEscape
 		 */
-		private static Map<Character, String> kotlinCharValueEscape;
+		private static HashMap<Character, String> kotlinCharValueEscape;
 
 		static  {
 			kotlinCharValueEscape = new HashMap(defaultCharValueEscape);
